@@ -1,0 +1,28 @@
+.cloudimage-360-hotspot-link-icon {
+    /*width: 20px !important;*/
+    /*height: 20px !important;*/
+    /*display: none !important;*/
+    background: transparent !important;
+    border: none !important;
+    left: -30px !important;
+    top: -28px !important;
+}
+.cloudimage-360-hotspot-link-icon::before {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: transparent !important;
+    background-image: url("http://kcvg.kia.com/cdn_tmp/media/en/img/icon/plus_off.png") !important;
+    background-size: cover !important;
+    animation: none !important;
+}
+.vr_wrap {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    cursor: grab;
+}
+#vr_image {
+    width: 100%;
+    height: auto;
+    -webkit-user-drag: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/360vr.css">
+</head>
+<body>
+<div class="vr_wrap" >
+    <img id="vr_image" />
+</div>
+<div>
+    <button class="prev">prev</button>
+    <button class="next">next</button>
+</div>
+<div
+    class="cloudimage-360"
+    id="gurkha-suv"
+    data-folder="./images/360vr/"
+    data-filename-x="Gray_AGT_{index}.png"
+    data-amount-x="72"
+    data-hotspots
+    data-info="white || black"
+></div>
+<!--<div-->
+<!--        class="cloudimage-360"-->
+<!--        id="gurkha-suv"-->
+<!--        data-folder="https://scaleflex.cloudimg.io/v7/demo/suv-orange-car-360/"-->
+<!--        data-filename-x="orange-{index}.jpg"-->
+<!--        data-amount-x="73"-->
+<!--        data-info="white || black"-->
+<!--&gt;</div>-->
+<script src="https://scaleflex.cloudimg.io/v7/plugins/js-cloudimage-360-view/latest/js-cloudimage-360-view.min.js?func=proxy"></script>
+<script src="js/360vr.js"></script>
+<script src="js/my360vr.js"></script>
+</body>
+</html>
